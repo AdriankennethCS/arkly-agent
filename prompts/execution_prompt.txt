@@ -1,0 +1,14 @@
+Given a task description, write executable Python code to perform it. Return only the code.
+
+Task: {task}
+
+Please write Python code that:
+1. Accomplishes the task description
+2. Uses standard Python libraries where possible
+3. Includes error handling
+4. Returns or prints results as appropriate
+
+The code will be executed in a sandboxed environment with limited access to system resources.
+Make sure the code is safe and doesn't attempt to access restricted resources or perform dangerous operations.
+
+Return only the Python code, no explanations or markdown formatting. 
